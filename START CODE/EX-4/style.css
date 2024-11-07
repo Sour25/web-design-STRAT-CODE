@@ -1,0 +1,99 @@
+body {
+    background-color: lightpink;
+}
+#start {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+   
+    display: block;
+    margin-left: 10px;
+  
+ }
+ .header {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+  }
+ .clip{
+    margin-left: 40px;
+ }
+ .clipAB{
+    margin-right: 150px;
+ }
+
+header nav{
+    display: flex;
+    justify-content:  space-evenly;
+    flex-wrap: wrap;
+}
+nav .nono {
+    display: flex;
+    column-gap: 12px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.nono{
+    padding: 10px 20px;
+}
+ nav .nono li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+nav .drama{
+    display: flex;
+    column-gap: 50px;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 290px;
+}
+ nav .drama li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.container .clip {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 0 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1{
+    padding: 15px 0;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.container .imgClip{
+    flex-wrap: wrap;
+    width: 40%;
+    height: 450px;
+}
+.clipAB{
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.shopImg{
+    width: 30%;
+    flex-wrap: wrap;
+    height: 450px;
+}

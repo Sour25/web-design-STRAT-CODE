@@ -1,0 +1,39 @@
+.container {
+    margin: 0 auto;
+    max-width: calc(100% - 200px); /* 100px left + 100px right */
+  }
+  .box {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  
+   /*.box:first-child {
+    border-radius: 30px;    /*use it when u want to design 1 box out of alot of many box
+  }*/                       
+  
+  .button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .button-green {
+    background-color: #4CAF50; 
+  } 
+
+  .button-orange {
+    background-color: #FFA500;
+  }
+  
+  .button-purple {
+    background-color: #800080;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }

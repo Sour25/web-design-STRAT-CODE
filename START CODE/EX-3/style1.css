@@ -1,0 +1,18 @@
+/* TODO */
+.hover-button {
+    background-color: #ff99cc; 
+    color: white;
+    border: 5px solid #e60073; 
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.4s, border-color 0.4s; /* Smooth transition to hover mode*/
+  }
+  
+  /* Hover effect */
+  .hover-button:hover {
+    background-color: #b30086; 
+    border-color: #660033; 
+  }
